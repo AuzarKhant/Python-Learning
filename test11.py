@@ -1,1 +1,2 @@
-print("Hello dude")
+print("You just won 1 million dollars")
+print("Just kidding")
