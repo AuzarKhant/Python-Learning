@@ -11,12 +11,12 @@ class Battlepass():
     
     def soundtrack(link):
         print(link.name + " claimed a sound track!")
-        print(link.name + " You have 0 ponts left!")
+        print(link.name + " You have 50 ponts left!")
 
     def pickaxe(link):
         print(link.name + " claimed a pickaxe!")
-        print(link.name + " You have 0 points left!")
+        print(link.name + " You have 20 points left!")
 
     def pet(link):
         print(link.name + " claimed a pet!")
-        print(link.name + " You have 0 point left!")
+        print(link.name + " You have 10 point left!")
