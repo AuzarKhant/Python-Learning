@@ -7,16 +7,22 @@ class Battlepass():
 
     def skin(link):
         print(link.name + " claimed a skin!")
-        print(link.name + " You have 0 points left!")
+        print(link.name + " You have ", link.points - 50, " points left!")
+        
+
     
     def soundtrack(link):
         print(link.name + " claimed a sound track!")
-        print(link.name + " You have 50 ponts left!")
+        print(link.name + " You have ", link.points - 40, " points left!")
+        
+    
 
     def pickaxe(link):
         print(link.name + " claimed a pickaxe!")
-        print(link.name + " You have 20 points left!")
+        print(link.name + " You have  ", link.points - 30, " points left!")
+        
+    
 
     def pet(link):
         print(link.name + " claimed a pet!")
-        print(link.name + " You have 10 point left!")
+        print(link.name + " You have ", link.points - 80, " points left!")
