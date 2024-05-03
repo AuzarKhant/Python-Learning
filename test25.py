@@ -1,8 +1,8 @@
 class Battlepass():
     
-    def __init__(link, name, item, points = 100):
+    def __init__(link, name, skill, points = 100):
         link.name = name
-        link.item = item 
+        link.item = skill
         link.points = points
 
     def skin(link):
