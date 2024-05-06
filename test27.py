@@ -11,5 +11,4 @@ class Phone():
     def call(link):
         print(link.Brand + " is calling. tu tu tu")
 
-
     
