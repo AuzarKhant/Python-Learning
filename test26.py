@@ -1,13 +1,24 @@
 from test25 import Battlepass
 
-c1 = Battlepass("AuzBot", "Breacher")
-c1.skin()
+Name = input(" Please enter your Name: ")
 
-c2 = Battlepass("PandaCantaim", "scout")
-c2.pet()
 
-c3 = Battlepass("Clive", "sniper")
-c3.soundtrack()
+Choice = input("""
+                                                    what would u like to claim? 
+                                          skin        pet     pickaxe        soundtrack  
+                                                Enter here: """)
 
-c4 = Battlepass("Marmishane", "one-man army")
-c4.pickaxe()
+if Choice == "skin":
+    c1 = Battlepass(Name, "skin")
+    c1.skin()
+if Choice == "pickaxe":
+    c2 = Battlepass(Name, "pickaxe")
+    c2.pickaxe()
+
+if Choice == "soundtrack":
+    c3 = Battlepass(Name, "soundtrack")
+    c3.soundtrack()
+
+if Choice == "pet":
+    c4 = Battlepass(Name, "pet")
+    c4.pet()
